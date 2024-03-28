@@ -53,9 +53,9 @@ class Main extends Phaser.Scene {
         this.load.image('bntC', 'assets/C_pergunta/bntC.png');
         this.load.image('bntD', 'assets/C_pergunta/bntD.png');
         this.load.spritesheet('virus', 'assets/C_pergunta/virus.png', {frameWidth: 225, frameHeight: 180});
-        this.load.image('3coracao', './assets/_tresCoracoes.png');
-        this.load.image('2coracao', './assets/_doisCoracoes.png');
-        this.load.image('1coracao', './assets/_umCoracao.png');
+        this.load.image('3coracao', 'assets/_tresCoracoes.png');
+        this.load.image('2coracao', 'assets/_doisCoracoes.png');
+        this.load.image('1coracao', 'assets/_umCoracao.png');
         this.load.image('fundomt', 'assets/C3/bgMaeTerra.png');
         this.load.image('montanhas', 'assets/C3/bg30.png');
         this.load.image('colinas', 'assets/C3/bg31.png');
